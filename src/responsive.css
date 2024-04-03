@@ -1,0 +1,119 @@
+
+.skills{
+
+  
+
+    position: relative;
+    
+  }
+  .skillContainer{
+  
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height:400px;
+    padding: 10px;
+  }
+  
+  .skillContainer .skillCard {
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(45deg,rgba(110, 243, 196, 0.183),rgba(52, 170, 248, 0.209));
+   
+    border-radius: 12px;
+  
+    transition: 0.5s;
+    justify-content: center;
+    align-items: flex-start;
+  
+    -webkit-box-shadow:0px 0px 5px 0px rgba(46,255,144,0.9);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(46,255,144,0.9);
+    box-shadow: 0px 0px 5px 0px rgba(46,255,144,0.9);
+  
+  }
+  .skillContainer .skillCard:hover{
+    height: 300px;
+  }
+  
+  .skillContainer .skillCard .imgbox{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    top :20px;
+    border-radius: 12px;
+    transition: 0.5s;
+    display: flex;
+  }
+  .skillContainer .skillCard:hover .imgbox{
+    top: -50px;
+    scale:0.75;
+    transition: 0.5s;
+    
+   
+  }
+  
+  .skillContainer .skillCard .imgbox img{
+   position: absolute;
+   top:0;
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+  
+  }
+  
+  .skillContainer .skillCard .content{
+    position: relative;
+   width: 90%;
+  padding: 30px 30px;
+  text-align: center;
+  top:100px;
+  height: 5px;
+  overflow: hidden;
+  transition: 0.5s;
+  
+  
+  }
+  .skillContainer .skillCard:hover .content{
+    height: 220px;
+    top: 20px;
+    transition: 0.5s;
+  }
+  .skillProgress{
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+  
+    -webkit-box-shadow:0px 0px 5px 0px rgba(46, 255, 248, 0.9);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(46, 255, 210, 0.9);
+    box-shadow: 0px 0px 5px 0px rgba(46, 255, 255, 0.9);
+  }
+  .skillBar{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    
+    background-color: #23d57c;
+    color: #e1f249;
+    border-radius: 8px;
+  }
+   #skill1{
+    width: 90%;
+  }
+  #skill2{
+    width: 90%;
+  }
+  #skill3{
+    width: 80%;
+  }
+  #skill4{
+    width: 70%;
+  }
